@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mission *.css
+recursive-include mission *.csv
+recursive-include mission *.html
+recursive-include mission *.ico
+recursive-include mission *.js
+recursive-include mission *.json
+recursive-include mission *.md
+recursive-include mission *.png
+recursive-include mission *.py
+recursive-include mission *.svg
+recursive-include mission *.txt
+recursive-exclude mission *.pyc
